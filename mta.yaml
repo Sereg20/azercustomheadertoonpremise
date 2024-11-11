@@ -1,0 +1,35 @@
+_schema-version: "3.2"
+ID: azercustomheadertoonpremise
+version: 0.0.1
+modules:
+- name: azercustomheadertoonpremise-approuter
+  type: approuter.nodejs
+  path: azercustomheadertoonpremise-approuter
+  requires:
+  - name: connectivity_service
+  - name: destination_service
+  - name: azercustomheadertoonpremise_html_repo_runtime
+  - name: uaa_azercustomheadertoonpremise
+  parameters:
+    disk-quota: 256M
+    memory: 256M
+resources:
+- name: azercustomheadertoonpremise_html_repo_runtime
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-plan: app-runtime
+- name: uaa_azercustomheadertoonpremise
+  type: org.cloudfoundry.existing-service
+  parameters:
+    service-name: uaa_azercellexpress
+- name: destination_service
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: destination
+    service-plan: lite 
+- name: connectivity_service
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: connectivity
+    service-plan: lite 

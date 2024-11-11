@@ -1,0 +1,13 @@
+{
+    "httpHeaders": [
+        {
+            "Test-Additional-Header": "1"
+        }
+    ],
+    "destinations": [
+        {
+            "name": "OnPremise",
+            "url": "http://localhost:3000"
+        }
+    ]
+}

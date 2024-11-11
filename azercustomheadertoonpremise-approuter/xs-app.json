@@ -1,0 +1,20 @@
+{
+  "authenticationMethod": "route",
+  "routes": [
+    {
+      "source": "^/mockable/(.*)$",
+      "target": "$1",
+      "destination": "Mockable"
+    },
+    {
+      "source": "^/server/(.*)$",
+      "target": "$1",
+      "destination": "OnPremise"
+    },
+    {
+      "source": "^/expresstest/(.*)$",
+      "target": "$1",
+      "destination": "Expresstest"
+    }
+  ]
+}

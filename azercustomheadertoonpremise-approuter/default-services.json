@@ -1,0 +1,20 @@
+{
+    "uaa": {
+        "tenantmode": "dedicated",
+        "sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+        "subaccountid": "1482c8ff-772d-4d85-bef0-fbc0e2c1d1c9",
+        "credential-type": "instance-secret",
+        "clientid": "sb-azercustomheadertoonpremise!t318958",
+        "xsappname": "azercustomheadertoonpremise!t318958",
+        "clientsecret": "NgRgEhXaYrykkAS1q4Rh0zPhyT8=",
+        "serviceInstanceId": "08ea4721-ffdf-40e3-8492-1ba018bcfd91",
+        "url": "https://4f551d62trial.authentication.us10.hana.ondemand.com",
+        "uaadomain": "authentication.us10.hana.ondemand.com",
+        "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmK8CUAJtCoI/5shEaJg3\nk+vkWMyxipt9C927yQMTjIZYT+QNTX+7BBoNCTEUxKCXDXQs2HTp0Fw8pxSzn7IV\nVbTxywEJHZSiFED9fRMl4FM8d4KNTVjKLyriX1y5FtnjiUobqX7Gn8ZnX3QL586F\nPA1DsUO93YjayMgKYVYZ5nZ0ztTDNJJk68pU4aEqxl1Up45WuVFgq/tu1i1nnoVI\n//QpOnpmaQMDwJQVrysSWK8e5XOWRLzN7KT1yHbeOJJpBNtO1MSeW3vFVDREsJq4\nphchpdl/NACVf84X6PxU1Nl9J4tVvWxaUfEOKUbpmkt6gwEv+TB2+MHYHWfBQEo8\nVwIDAQAB\n-----END PUBLIC KEY-----",
+        "apiurl": "https://api.authentication.us10.hana.ondemand.com",
+        "identityzone": "4f551d62trial",
+        "identityzoneid": "1482c8ff-772d-4d85-bef0-fbc0e2c1d1c9",
+        "tenantid": "1482c8ff-772d-4d85-bef0-fbc0e2c1d1c9",
+        "zoneid": "1482c8ff-772d-4d85-bef0-fbc0e2c1d1c9"
+    }
+}
